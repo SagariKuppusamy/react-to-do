@@ -67,7 +67,7 @@ function TodoList() {
             <div className="toDo-Container">
                 <div className="toDoInput">
                     <input onChange={enteredInput} value={input} type="text" onKeyDown={handleKeyPress} placeholder='Enter your todo' />
-                    <button type='button' className='btn btn-primary' onClick={addNewTodo}>Add</button>
+                    <button type='button' className='btn btn-secondary' onClick={addNewTodo}>Add</button>
                 </div>
                 <div className="ToDo-Content">
                     <div>
